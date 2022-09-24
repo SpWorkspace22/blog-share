@@ -1,0 +1,17 @@
+db schema :
+		(ref-travel) Title, author, pulish_date & time, details, summary, image
+	
+blog category :-
+		travel
+			-city,country, 
+		tech
+			-startup, security, Events
+			
+
+Structure 
+
+		There are 2 users one is author and one is reader
+		
+		Users{_id,username,password, type:(author,reader)}
+		
+		blog (_id, title,publish_date,publish_time,category(travel, tech ),info,image)
